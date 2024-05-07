@@ -23,7 +23,7 @@ function Navbar() {
                     </div>
                     <a href="#" className="navbar-action">Help</a>
                     <a href="#" className="navbar-action">Log In</a>
-                    <button className="navbar-action" style={{color:'#000',    padding: '7px',borderradius: '25px'} }>Sign Up</button>
+                    <button className="navbar-action" style={{color:'#000',    padding: '7px',borderRadius:'27px'} }>Sign Up</button>
                 </div>
             </div>
         </div>

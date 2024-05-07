@@ -52,7 +52,7 @@ body {
 
 #submit-button {
     background-color: white;
-    color: black; /* Text color black */
+    color: black; 
     width: 20%;
     border: none;
     padding: 0.5rem;
@@ -61,7 +61,7 @@ body {
 }
 
 .submit-button:hover {
-    background-color: #eef2f5; /* Darker blue on hover */
+    background-color: #eef2f5; 
 }
 
 .button-container {
@@ -71,10 +71,10 @@ body {
     margin-bottom: 1rem; 
 }
 
-/* Intercity and Outstation buttons */
+
 .button-container button {
     background-color: white;
-    color: black; /* Text color black */
+    color: black; 
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -82,14 +82,18 @@ body {
 }
 
 .button-container button:hover {
-    background-color: transparent; /* Darker blue on hover */
+    background-color: transparent; 
 }
 
-/* Responsive adjustments */
+@media screen and (max-width: 1148px){
+    #submit-button {
+        width: 34%; 
+    }
+}
 @media (max-width: 920px) {
     .block-one-container {
-        flex-direction: column; /* Stack flex items vertically */
-        align-items: center; /* Center items vertically */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .image-container {
@@ -97,7 +101,6 @@ body {
         justify-content: center;
         width: 100%;
         margin: auto;
-         /* Adjust width for smaller screens */
         
     }
    
@@ -108,9 +111,9 @@ body {
     
 
     .form-container{
-        margin-bottom: 1.7rem; /* Add margin to bottom */
+        margin-bottom: 1.7rem; 
     }
     .submit-button {
-        width: 100%; /* Make button full width on smaller screens */
+        width: 100%; 
     }
 }

@@ -89,6 +89,9 @@ body {
     #submit-button {
         width: 34%; 
     }
+    .form input[type="text"]{
+        width:85%; 
+    }
 }
 @media (max-width: 920px) {
     .block-one-container {

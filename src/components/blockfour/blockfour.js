@@ -12,7 +12,8 @@ const BlockFour = () => {
       <div className="text-container">
         <h1>Make money by renting out your car</h1>
         <p>Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p> 
-        <button style={{borderRadius:'10px'}}>Get started</button>
+        <button style={{borderRadius:'8px',fontWeight:'500',fontSize:'15.63px',fontFamily:'UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif'}}>Get started</button>
+        
       </div>
       </div>
     </div>

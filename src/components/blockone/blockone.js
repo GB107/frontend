@@ -16,16 +16,22 @@ function BlockOne() {
 
                 <p className="form-paragraph">Request a ride, hop in, and go.</p>
                 <div className="button-container" >
-                  <button>Intercity</button>
-                  <button>outsation</button>
+                  <button>Inter-city</button>
+                  <button>Outstation</button>
                 </div>
                 <form className="form">
-                    <input type="text" placeholder="Enter Location" />
-                    <input type="text" placeholder="Enter Destination" />
-                    
-                        <button id='submit-button'>See Prices</button>
-
-                </form>
+  <div className="input-wrapper">
+    <img src={process.env.PUBLIC_URL + '/location.png'} alt="Location" className="input-icon start" />
+    <input type="text" placeholder="Enter Location" className="input-field" />
+    <img src={process.env.PUBLIC_URL + '/vector.png'} alt="Vector" className="input-icon end" />
+  </div>
+  <div className="vertical-line"></div>
+  <div className="input-wrapper">
+    <img src={process.env.PUBLIC_URL + '/destination.png'} alt="Destination" className="input-icon start" />
+    <input type="text" placeholder="Enter Destination" className="input-field" />
+  </div>
+  <button id="submit-button">See Prices</button>
+</form>
             </div>
             </div>
 

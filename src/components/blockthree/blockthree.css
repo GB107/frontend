@@ -1,6 +1,7 @@
 
 
 .block-three-container {
+    
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -9,17 +10,22 @@
 }
 
 .text-container {
+
     background-color: transparent;
     margin-right: 8em;
     width: 60%; 
 }
 
 .text-container h2 {
-    font-size: 48px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 47.63px;
 }
 
 .text-container p {
-    font-size: 21px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15.25px;
+    font-weight: 400;
 }
 
 .text-container button {

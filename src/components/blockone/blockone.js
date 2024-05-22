@@ -23,7 +23,7 @@ function BlockOne() {
   <div className="input-wrapper">
     <img src={process.env.PUBLIC_URL + '/location.png'} alt="Location" className="input-icon start" />
     <input type="text" placeholder="Enter Location" className="input-field" />
-    <img src={process.env.PUBLIC_URL + '/vector.png'} alt="Vector" className="input-icon end" />
+    <img src={process.env.PUBLIC_URL + '/Vector.png'} alt="Vector" className="input-icon end" />
   </div>
   <div className="vertical-line"></div>
   <div className="input-wrapper">

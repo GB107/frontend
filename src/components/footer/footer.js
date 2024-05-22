@@ -15,6 +15,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+
       <div className="footer-grid">
         <div>
           <h5>Company</h5>

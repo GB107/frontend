@@ -30,6 +30,7 @@ body{
 .navbar-links {
     margin-left: 8%;
     display: flex;
+    align-items: center;
 }
 
 .navbar-link {

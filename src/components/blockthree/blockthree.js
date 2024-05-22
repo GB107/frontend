@@ -9,8 +9,8 @@ const BlockThree = () => {
       <div className="text-container">
         <h2>The Uber you know, reimagined for business</h2>
         <p>Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
-        <button style={{marginRight:'10%'}}>Get started</button>
-        <span>Check out our solutions</span>
+        <button style={{marginRight:'10%',borderRadius:'10px'}}>Get started</button>
+        <span className='accountbox'>Check out our solutions</span>
       </div>
       </div>
       <div className="image-container">

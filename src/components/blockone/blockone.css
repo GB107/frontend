@@ -10,6 +10,8 @@ body {
     /* align-items: center; */
     color: white; 
     padding: 2rem; 
+    margin-bottom: 2rem;
+
 
 }
 
@@ -85,7 +87,7 @@ body {
     background-color: transparent; 
 }
 
-@media screen and (max-width: 1148px){
+@media screen and (max-width: 1150px){
     #submit-button {
         width: 34%; 
     }
@@ -93,7 +95,7 @@ body {
         width:85%; 
     }
 }
-@media (max-width: 920px) {
+@media (max-width: 1040px) {
     .block-one-container {
         flex-direction: column; 
         align-items: center; 
